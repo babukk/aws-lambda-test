@@ -1,0 +1,10 @@
+
+service: tmp
+
+provider:
+  name: aws
+  runtime: python3.6
+
+functions:
+  hello:
+    handler: handler.hello
